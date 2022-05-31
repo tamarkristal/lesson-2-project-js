@@ -1,0 +1,137 @@
+ #manager a {
+     color: rgb(32, 32, 66);
+     text-decoration: none;
+ }
+ 
+ #manager {
+     margin: 0.5%;
+ }
+ 
+ .buttons {
+     display: flex;
+     width: 20%;
+ }
+ 
+ .modal-edit {
+     visibility: hidden;
+ }
+ 
+ .show {
+     visibility: visible;
+ }
+ 
+ .buttons button {
+     width: 100%;
+     margin: 1%;
+ }
+ 
+ .description {
+     text-align: center;
+     font-weight: bold;
+ }
+ 
+ .hide {
+     display: none;
+ }
+ 
+ .price-search {
+     visibility: hidden;
+ }
+ 
+ .list-product {
+     padding: 5%;
+     margin: 4%;
+     background-color: antiquewhite;
+ }
+ 
+ #full-category-filter {
+     width: 35%;
+ }
+ 
+ .clothes-shop {
+     background-image: url('../pictures/91jjU-VPS3L._AC._SR360\,460.jpg');
+     height: 100vh;
+     background-position: center;
+     background-repeat: repeat-x;
+ }
+ 
+ .form-select {
+     width: 50%;
+     margin-left: 35%;
+ }
+ 
+ .input-new-product {
+     width: 50%;
+     margin-bottom: 4%;
+ }
+ 
+ .clothes-shop {
+     direction: rtl;
+     margin-right: 7%;
+ }
+ 
+ .row {
+     /* display: flex; */
+     margin: 0.25em;
+     /* width: 50%; */
+ }
+ 
+ .description {
+     padding-top: 0.3%;
+ }
+ 
+ #modal-add {
+     background-color: #d43f3a;
+ }
+ 
+ .row label {
+     width: 100%;
+ }
+ 
+ #input-edit {
+     padding: 4%;
+     width: 30%;
+     border: 2px solid #d43f3a;
+     direction: rtl;
+     margin-left: 35%;
+ }
+ 
+ #input-edit input {
+     width: 75%
+ }
+ 
+ .clothes-shop h1,
+ .clothes-shop h2 {
+     color: blue;
+     opacity: 1;
+     font-weight: bold;
+     text-align: center;
+ }
+ 
+ input,
+ button,
+ select,
+ #category-edit,
+ #category-add {
+     border: 2px solid #d43f3a;
+ }
+ 
+ h4 {
+     margin-top: 0.5%;
+ }
+ 
+ .container {
+     margin-bottom: 0.5%;
+ }
+ 
+ @media screen and (max-width: 850px) {
+     .form-select {
+         width: 75%;
+     }
+     #input-edit {
+         width: 60%
+     }
+     #input-edit input {
+         width: 100%;
+     }
+ }
